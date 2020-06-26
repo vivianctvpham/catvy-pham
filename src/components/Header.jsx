@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 class Header extends React.Component {
   render() {
@@ -13,9 +14,17 @@ class Header extends React.Component {
                     Vivian Pham.<span></span>
                   </h1>
                   <p>Full-stack Developer.</p>
-                  <a href="about" className="btn btn-custom btn-lg page-scroll">
+                  <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className="btn btn-custom btn-lg"
+                  >
                     Learn More
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

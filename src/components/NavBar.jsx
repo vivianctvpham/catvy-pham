@@ -1,51 +1,73 @@
 import React from "react";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 class NavBar extends React.Component {
+  scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   render() {
     return (
       <>
-        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button
-                type="button"
-                class="navbar-toggle collapsed"
-                data-toggle="collapse"
-                data-target="#bs-example-navbar-collapse-1"
-              >
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span> <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand page-scroll" href="#page-top">
+        <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+          <div className="container">
+            <div className="navbar-header">
+              <span className="navbar-brand" onClick={this.scrollToTop}>
                 VCP.
-              </a>
+              </span>
             </div>
-
             <div
-              class="collapse navbar-collapse"
+              className="collapse navbar-collapse"
               id="bs-example-navbar-collapse-1"
             >
-              <ul class="nav navbar-nav navbar-right">
+              <ul className="nav navbar-nav navbar-right">
                 <li>
-                  <a href="#about" class="page-scroll">
+                  <Link
+                    activeClass="active"
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#experience" class="page-scroll">
+                  <Link
+                    activeClass="active"
+                    to="experience"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
                     Experience
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#portfolio" class="page-scroll">
+                  <Link
+                    activeClass="active"
+                    to="portfolio"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
                     Projects
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#contact" class="page-scroll">
+                  <Link
+                    activeClass="active"
+                    to="contact"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                  >
                     Contact
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

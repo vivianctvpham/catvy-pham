@@ -23,7 +23,7 @@ class About extends React.Component {
                     finding creative solutions for it! My path within the tech
                     industry is just starting out and I could not be more
                     excited. My passion for code and tech boils down to a simple
-                    sentence: I want to <i>make things</i> that
+                    sentence: I want to <i>make things</i> that{" "}
                     <i>make a difference.</i>
                   </p>
                   <p>

@@ -14,12 +14,13 @@ class Experience extends React.Component {
                 My experiences have been very untraditional for pursuing Tech.
                 {/* Over the years, I have developed a range of both soft and hard
                 skills through my work life, all in which I use every day in my
-                professional life, despite the job. */}
+                professional life, despite the job. */}{" "}
                 However, I am confident that I can seamlessly adapt in any given
                 environment and be able to leverage my skills optimally. I have
-                a deep desire to be impactful in everything I do and I live for
-                the challenges that programming provides...I can not be more
-                excited to contribute to meaningful projects in the future!
+                always had a deep desire to learn and be impactful in everything
+                I do and I live for the challenges that programming provides...I
+                can not be more excited to contribute to meaningful projects in
+                the future!
               </p>
               <a
                 href={resume}
