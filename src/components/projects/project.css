@@ -1,0 +1,96 @@
+.description {
+  text-align: left !important;
+}
+
+.col-md-7 > h4 {
+  text-transform: uppercase;
+  text-align: left;
+}
+.rightLink {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  float: right;
+  font-size: 18px;
+  color: #6372ff;
+}
+
+.rightLink:hover {
+  color: #5ca9fb;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateX(-20px);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+.fade-in-right-section {
+  opacity: 0;
+  transform: translateX(20px);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+  will-change: opacity, visibility;
+}
+.fade-in-right-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
+#tech ul {
+  float: left;
+  margin-top: 3px;
+}
+#tech li {
+  display: inline-block !important;
+  padding: 5px;
+}
+.fa-check {
+  padding: 3px;
+  color: #5ca9fb;
+}
+.calculatorImg {
+  float: right;
+}
+.calculatorDesContainer {
+  margin-left: 95px;
+  padding-left: 120px;
+  padding-top: 10px;
+}
+.calculatorDesContainer > h4 {
+  text-align: right;
+}
+
+.calcContent {
+  text-align: right;
+}
+
+#tech.react-calc {
+  float: right;
+}
+.leftLink {
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  float: left;
+  font-size: 22px;
+  color: #6372ff;
+}
+
+.leftLink:hover {
+  color: #5ca9fb;
+}

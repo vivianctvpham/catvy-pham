@@ -1,0 +1,41 @@
+.downloadButton {
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  padding: 16px;
+  border-radius: 25px;
+  display: inline-flex !important;
+  position: relative;
+  top: 13px;
+  left: 9px;
+  transition: all 0.5s linear;
+}
+
+.downloadButton:hover {
+  background-color: #ffffff;
+  color: #337ab7;
+}
+
+i.fa.button {
+  color: #ffffff;
+  font-size: 28px !important;
+  width: 50px !important;
+  height: 120px !important;
+  background: transparent !important;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  display: inline-flex !important;
+  position: relative;
+  top: 5px;
+  left: 9px;
+}
+
+a {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+}
