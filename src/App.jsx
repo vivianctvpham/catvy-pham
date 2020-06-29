@@ -6,7 +6,7 @@ import NavBar from "./components/NavBar";
 import About from "./components/About";
 import Experience from "./components/experience/Experience";
 import Projects from "./components/projects/Projects";
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 
 class App extends React.Component {
   render() {

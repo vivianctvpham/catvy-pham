@@ -1,0 +1,13 @@
+.form-control.error {
+  margin: 0 0.25rem;
+  min-width: 125px;
+  border: 1px solid #eee !important;
+  border-left: 5px solid !important;
+  transition: border-color 0.5s ease-out !important;
+  border-left-color: salmon !important;
+  height: max-content;
+}
+
+.fa-exclamation-circle {
+  padding: 3px;
+}
