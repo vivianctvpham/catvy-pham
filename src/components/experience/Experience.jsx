@@ -1,5 +1,5 @@
 import React from "react";
-import resume from "../../myFiles/Resume.pdf";
+import resume from "../../myFiles/Vivian Pham_Resume.pdf";
 import "./downloadButton.css";
 
 class Experience extends React.Component {
@@ -19,17 +19,16 @@ class Experience extends React.Component {
                 environment and be able to leverage my skills optimally. I have
                 always had a deep desire to learn and be impactful in everything
                 I do and I live for the challenges that programming provides...I
-                can not be more excited to contribute to meaningful projects in
-                the future!
+                can't wait to contribute to more meaningful projects in the
+                future!
               </p>
               <a
                 href={resume}
                 target="_blank"
                 rel="noopener noreferrer"
-                download="Resume.pdf"
+                download="Vivian Pham_Resume.pdf"
                 className="downloadButton"
               >
-                {/* <i className="fa fa-cloud-download button"></i> */}
                 Download Resume
               </a>
             </div>
